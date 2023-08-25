@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+## JavaScript Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project involves building a functional JavaScript calculator, which allows users to perform mathematical operations. The calculator can be accessed [Here](https://codepen.io/rijadhmz/pen/GRwGMJX).
 
-## Available Scripts
+### Project Description
 
-In the project directory, you can run:
+The JavaScript calculator is an interactive web application built to perform basic arithmetic calculations. Users can input numbers, apply operators, and calculate results through either clicking on calculator buttons or using keyboard input. The calculator supports a range of mathematical operations and adheres to proper calculation order.
 
-### `npm start`
+### Challenge Requirement
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The challenge required building an app similar to [this example](https://javascript-calculator.freecodecamp.rocks). The following user stories were fulfilled:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. The calculator should include clickable buttons for digits 0-9.
+2. Operators (+, -, *, /) should have clickable buttons.
+3. A clickable button for the decimal point should be available.
+4. The calculator should have a button to clear the input and output values.
+5. A clickable button for the equals sign (=) should calculate and display the result.
+6. The calculator display should show the current input as users interact with it.
+7. The calculator should handle order of operations and chaining of operations.
+8. The calculator should handle decimal numbers and precision.
+9. Pressing an operator immediately after = should continue calculations.
+10. The calculator should handle zero input limitations and multiple decimals.
 
-### `npm test`
+### Implementation Details
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The project is built using React and Redux, providing a dynamic and user-friendly interface. The calculator's functionality is achieved through React components and Redux actions, allowing for clear state management and interaction logic. The calculator handles various edge cases, including consecutive operators, decimal input, and zero input scenarios.
 
-### `npm run build`
+### Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React
+- Redux
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Example
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![JavaScript Calculator](https://github.com/rijadhmz/JavaScript-Calculator/blob/secondary/images/example.png?raw=true)
 
-### `npm run eject`
+### Project URL
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To interact with the deployed project, visit my [CodePen Project](https://codepen.io/rijadhmz/pen/GRwGMJX).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project demonstrates effective use of React and Redux for creating an interactive calculator that performs various arithmetic operations, adheres to order of operations, and handles user input gracefully.
