@@ -29,6 +29,7 @@ The project is built using React and Redux, providing a dynamic and user-friendl
 
 - React
 - Redux
+- Bootstrap (for styling)
 
 ### Example
 
